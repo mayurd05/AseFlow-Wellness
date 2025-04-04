@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", function () { 
-    const menuToggle = document.getElementById("menu-toggle");
-    const navLinks = document.getElementById("nav-links");
+const navToggle = document.getElementById("navToggle");
+const navLinks = document.getElementById("navLinks");
 
-    menuToggle.addEventListener("click", function () {
-        navLinks.classList.toggle("active"); // Toggle visibility
-    });
+navToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show"); // Show/Hide Menu
+  navToggle.classList.toggle("open"); // Animate Button
 });

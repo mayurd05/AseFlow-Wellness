@@ -74,46 +74,35 @@ body {
   background-color: var(--primary-color);
 }
 
-/* Navbar */
 nav {
   max-width: var(--max-width);
   margin: auto;
-  padding: 0rem 1rem;
+  padding: rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  gap: 2rem;
 }
 
-/* Logo */
 .nav__logo {
   max-width: 150px;
 }
 
-/* Navigation Links */
 .nav__links {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 3rem;
-  
 }
-
-/* Links Styling */
-.nav__links a {
-  color: #EEEEEE;
-  text-decoration: none;
- 
-}
-
-.nav__links a:hover {
+.nav__links li a:hover {
   color: red; /* Change text color to red on hover */
 }
 
-/* Hover Effect */
+
 .link a {
   position: relative;
   padding-bottom: 0.75rem;
+  color: var(--white);
 }
 
 .link a::after {
@@ -131,18 +120,6 @@ nav {
   width: 50%;
 }
 
-/* Toggle Button - Hidden by Default */
-.nav__toggle {
-  display: none; /* Hidden by default */
-  cursor: pointer;
-  font-size: 2rem;
-  color: #EEEEEE;
-  background: none;
-  border: none;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
 /* Hero Section */
 .header__container {
   display: flex;
@@ -933,28 +910,11 @@ nav {
 .footer__bottom:hover {
   color: #FF5C00;
 }
-
-
-@media (max-width: 900px) {
-  .nav__toggle {
-    display: block; /* Show the menu button */
-  }
-
+@media (width < 900px) {
   .nav__links {
-    display: none; /* Hidden by default */
-    flex-direction: column;
-    position: absolute;
-    top: 60px; /* Below the navbar */
-    left: 0;
-    width: 100%;
-    background-color: #222831;
-    text-align: center;
-    padding: 1rem 0;
+    display: none;
   }
 
-  .nav__links.active {
-    display: flex; /* Show when toggled */
-  }
   .header__container {
     grid-template-columns: repeat(1, 1fr);
   }
