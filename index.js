@@ -1,7 +1,4 @@
-const navToggle = document.getElementById("navToggle");
-const navLinks = document.getElementById("navLinks");
 
-navToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("show"); // Show/Hide Menu
-  navToggle.classList.toggle("open"); // Animate Button
-});
+function toggleMenu() {
+  document.querySelector('.nav__links').classList.toggle('active');
+}

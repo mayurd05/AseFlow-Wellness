@@ -14,24 +14,25 @@
   <body>
     <nav>
       <div class="nav__logo">
-        <a href="#"><img src="/Images/logo.png" alt="logo" /></a>
+          <a href="#"><img src="/Images/logo.png" alt="logo" /></a>
       </div>
       <ul class="nav__links">
-        <li class="link"><a href="#">Home</a></li>
-          <li class="link"><a href="#">About Us</a></li>
-          <li class="link"><a href="#">Products</a></li>
-          <li class="link"><a href="#">Benefits</a></li>
-          <li class="link"><a href="#">FAQs</a></li>
-          <li class="link"><a href="#">Contact Us</a></li>
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About Us</a></li>
+        <li class="link"><a href="#benefits">Benefits</a></li>
+        <li class="link"><a href="#faqs">FAQs</a></li>
+        <li class="link"><a href="#contact">Contact Us</a></li>
       </ul>
-    </nav>
-        <header class="section__container header__container">
+      
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </nav>
+        <header class="section__container header__container"  id="home">
           <div class="header__content">
             <span class="bg__blur"></span>
             <span class="bg__blur header__blur"></span>
             
             <!-- Hero Banner -->
-            <!-- <h4>BEST FITNESS IN THE TOWN</h4> -->
+
             <h1><span>India’s</span> First Liquid Protein Shot</h1>
             <p>
               Rip it, Sip it, Repeat. 25g of protein in every shot – designed to fuel muscle recovery 
@@ -47,7 +48,7 @@
           </div>
         </header>
         
-        <!-- CTA Section -->
+        <!-- CTA Section (Call to Action) -->
         <section class="cta__container">
           <div class="cta__content">
             <h2>Fuel Your Workout Recovery</h2>
@@ -59,9 +60,8 @@
           </div>
         </section>
         
-        <!-- About Us Section -->
          <!-- About Us Section -->
-<section class="section__container about__container">
+<section class="section__container about__container" id="about">
   <div class="about__content">
     <h2 class="section__header">Our Story</h2>
     <p class="about__subtext">
@@ -83,264 +83,58 @@
   </div>
 </section>
 
-        <!-- <section class="section__container explore__container">
-          <div class="explore__header">
-            <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
-            <div class="explore__nav">
-              <span><i class="ri-arrow-left-line"></i></span>
-              <span><i class="ri-arrow-right-line"></i></span>
-            </div>
-          </div>
-          <div class="explore__grid">
-            <div class="explore__card">
-              <span><i class="ri-boxing-fill"></i></span>
-              <h4>Strength</h4>
-              <p>
-                Embrace the essence of strength as we delve into its various
-                dimensions physical, mental, and emotional.
-              </p>
-              <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="explore__card">
-              <span><i class="ri-heart-pulse-fill"></i></span>
-              <h4>Physical Fitness</h4>
-              <p>
-                It encompasses a range of activities that improve health, strength,
-                flexibility, and overall well-being.
-              </p>
-              <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="explore__card">
-              <span><i class="ri-run-line"></i></span>
-              <h4>Fat Lose</h4>
-              <p>
-                Through a combination of workout routines and expert guidance, we'll
-                empower you to reach your goals.
-              </p>
-              <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="explore__card">
-              <span><i class="ri-shopping-basket-fill"></i></span>
-              <h4>Weight Gain</h4>
-              <p>
-                Designed for individuals, our program offers an effective approach
-                to gaining weight in a sustainable manner.
-              </p>
-              <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-          </div>
-        </section> -->
-        <!-- **** Above code is old****** -->
-    
-        <!-- old sectiction with jonh ib img -->
-        <!-- <section class="section__container class__container">
-          <div class="class__image">
-            <span class="bg__blur"></span>
-            <img src="Images/class-1.jpg" alt="class" class="class__img-1" />
-            <img src="Images/class-2.jpg" alt="class" class="class__img-2" />
-          </div>
-          <div class="class__content">
-            <h2 class="section__header">THE CLASS YOU WILL GET HERE</h2>
-            <p>
-              Led by our team of expert and motivational instructors, "The Class You
-              Will Get Here" is a high-energy, results-driven session that combines
-              a perfect blend of cardio, strength training, and functional
-              exercises. Each class is carefully curated to keep you engaged and
-              challenged, ensuring you never hit a plateau in your fitness
-              endeavors.
-            </p>
-            <button class="btn">Book A Class</button>
-          </div>
-        </section>
-    
-        <section class="section__container join__container">
-          <h2 class="section__header">WHY JOIN US ?</h2>
-          <p class="section__subheader">
-            Our diverse membership base creates a friendly and supportive
-            atmosphere, where you can make friends and stay motivated.
-          </p>
-          <div class="join__image">
-            <img src="Images/join.jpg" alt="Join" />
-            <div class="join__grid">
-              <div class="join__card">
-                <span><i class="ri-user-star-fill"></i></span>
-                <div class="join__card__content">
-                  <h4>Personal Trainer</h4>
-                  <p>Unlock your potential with our expert Personal Trainers.</p>
-                </div>
-              </div>
-              <div class="join__card">
-                <span><i class="ri-vidicon-fill"></i></span>
-                <div class="join__card__content">
-                  <h4>Practice Sessions</h4>
-                  <p>Elevate your fitness with practice sessions.</p>
-                </div>
-              </div>
-              <div class="join__card">
-                <span><i class="ri-building-line"></i></span>
-                <div class="join__card__content">
-                  <h4>Good Management</h4>
-                  <p>Supportive management, for your fitness success.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-
        <!-- Vegan Protein Shot -->
-
-        <section class="section__container price__container">
-          <h2 class="section__header">Our Protein Shots</h2>
-          <p class="section__subheader">
-            Our pricing plan comes with various membership tiers, each tailored to
-            cater to different preferences and fitness aspirations.
-          </p>
-          <p class="section__subheader"><strong>Ingredients:</strong> Pea protein, rice protein, etc.</p>
+<section class="section__container price__container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 2rem;">
+  <div style="flex: 1 1 45%;">
+    <h2 class="section__header">Our Protein Shots</h2>
+    <p class="section__subheader">
+      Our pricing plan comes with various membership tiers, each tailored to
+      cater to different preferences and fitness aspirations.
+    </p>
+    <p class="section__subheader"><strong>Ingredients:</strong> Pea protein, rice protein, etc.</p>
     <p class="section__subheader"><strong>Benefits:</strong> Supports muscle recovery, 100% plant-based, no artificial additives.</p>
-          <div class="price__grid">
-            <div class="price__card">
-              <div class="price__card__content">
-                <!-- <h4>Basic Plan</h4>
-                <h3>₹1999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p> -->
-              </div>
-              <button class="btn price__btn">Buy Now</button>
-            </div>
-            <div class="price__card">
-              <div class="price__card__content">
-                <!-- <h4>Weekly Plan</h4>
-                <h3>₹3999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  PRO Gyms
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p> -->
-              </div>
-              <button class="btn price__btn">Buy Now</button>
-            </div>
-            <div class="price__card">
-              <div class="price__card__content">
-                <!-- <h4>Monthly Plan</h4>
-                <h3>₹ 5999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  ELITE Gyms & Classes
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  PRO Gyms
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Personal Training
-                </p> -->
-              </div>
-              <button class="btn price__btn">Buy Now</button>
-            </div>
-          </div>
-        </section>
+  </div>
 
-        <!-- Non-Vegan Protein Shot -->
+  <div style="flex: 1 1 45%; display: flex; justify-content: center;">
+    <div class="price__card" style="padding: 2rem; background-color: #1f2125; border-radius: 10px; width: 100%; max-width: 300px;">
+      <div class="price__card__content">
+        <!-- You can add any card content here -->
+        <p style="color: white; margin-bottom: 1rem;">Vegan Protein Shot</p>
+        <p style="color: white;">Price: $25</p>
+      </div>
+      <button class="btn price__btn">Buy Now</button>
+    </div>
+  </div>
+</section>
 
-        <section class="section__container price__container">
-          <h2 class="section__header">Non-Vegan Protein Shot</h2>
-          <p class="section__subheader">
-            "Our non-vegan shot is formulated with hydrolyzed marine collagen protein, 
-providing 25g of protein per serving. This collagen helps improve joint health while supporting 
-muscle recovery.
-          </p>
-          <p class="section__subheader"><strong>Ingredients:</strong> Marine collagen, etc.</p>
-    <p class="section__subheader"><strong>Benefits:</strong> Great for muscle recovery, helps maintain joint health, high bioavailability for faster 
-      absorption.</p>
-          <div class="price__grid">
-            <div class="price__card">
-              <div class="price__card__content">
-                <!-- <h4>Basic Plan</h4>
-                <h3>₹1999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p> -->
-              </div>
-              <button class="btn price__btn">Buy Now</button>
-            </div>
-            <div class="price__card">
-              <div class="price__card__content">
-                <!-- <h4>Weekly Plan</h4>
-                <h3>₹3999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  PRO Gyms
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p> -->
-              </div>
-              <button class="btn price__btn">Buy Now</button>
-            </div>
-            <div class="price__card">
-              <div class="price__card__content">
-                <!-- <h4>Monthly Plan</h4>
-                <h3>₹ 5999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  ELITE Gyms & Classes
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  PRO Gyms
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Personal Training
-                </p> -->
-              </div>
-              <button class="btn price__btn">Buy Now</button>
-            </div>
-          </div>
-        </section>
+<!-- Non-Vegan Protein Shot -->
+<section class="section__container price__container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 2rem; margin-top: 3rem;">
+  <div style="flex: 1 1 45%;">
+    <h2 class="section__header">Non-Vegan Protein Shot</h2>
+    <p class="section__subheader">
+      Our non-vegan shot is formulated with hydrolyzed marine collagen protein, 
+      providing 25g of protein per serving. This collagen helps improve joint health while supporting 
+      muscle recovery.
+    </p>
+    <p class="section__subheader"><strong>Ingredients:</strong> Marine collagen, etc.</p>
+    <p class="section__subheader"><strong>Benefits:</strong> Great for muscle recovery, helps maintain joint health, high bioavailability for faster absorption.</p>
+  </div>
+
+  <div style="flex: 1 1 45%; display: flex; justify-content: center;">
+    <div class="price__card" style="padding: 2rem; background-color: #1f2125; border-radius: 10px; width: 100%; max-width: 300px;">
+      <div class="price__card__content">
+        <!-- You can add any card content here -->
+        <p style="color: white; margin-bottom: 1rem;">Non-Vegan Protein Shot</p>
+        <p style="color: white;">Price: $30</p>
+      </div>
+      <button class="btn price__btn">Buy Now</button>
+    </div>
+  </div>
+</section>
+
 
         <!-- Benefits Section -->
-<section class="section__container benefits__container">
+<section class="section__container benefits__container" id="benefits">
   <h2 class="section__header">Why Choose Our Protein Shots?</h2>
   <p class="benefits__subtext">Convenient. Delicious. Effective.</p>
 
@@ -369,7 +163,7 @@ muscle recovery.
 
 <!-- FAQs section -->
 
-<section class="faq__container">
+<section class="faq__container" id="faqs">
   <h2 class="section__header">Frequently Asked Questions</h2>
   <div class="faq__content">
     <div class="faq__item">
@@ -393,7 +187,7 @@ muscle recovery.
 
 <!-- Contact Us section -->
 
-<section class="contact__container">
+<section class="contact__container" id="contact">
   <h2 class="section__header">Get In Touch</h2>
   <p class="section__subheader">Have questions or need more information? Reach out to us anytime!</p>
   
@@ -411,7 +205,8 @@ muscle recovery.
   </div>
 </section>
 
-    
+<!-- Footer Section -->
+
        <footer class="footer">
   <div class="footer__container">
     
@@ -433,19 +228,14 @@ muscle recovery.
     <div class="footer__social">
       <h3>Follow Us</h3>
       <div class="social__icons">
-        <a href="#"><img src="/Images/instagram.png" alt=""><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"><img src="/Images/facebook.png" alt=""></i></a>
-        <a href="#"><i class="fab fa-twitter"><img src="/Images/x.png" alt=""></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"><img src="/Images/linkedin.png" alt=""></i></a>
+        <a href="#" class="social__icon"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social__icon"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social__icon"><i class="fab fa-twitter"></i></a>
       </div>
     </div>
 
   </div>
-
   <p class="footer__copyright">&copy; 2025 YourBrand. All rights reserved.</p>
 </footer>
-
-
-  
   </body>
 </html>
