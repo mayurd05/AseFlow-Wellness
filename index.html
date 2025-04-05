@@ -191,12 +191,17 @@
   <h2 class="section__header">Get In Touch</h2>
   <p class="section__subheader">Have questions or need more information? Reach out to us anytime!</p>
   
-  <form class="contact__form">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
+  <form id="contactForm" class="contact__form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
     <button type="submit" class="btn">Submit</button>
   </form>
+
+  <!-- Confirmation Message -->
+  <div id="confirmationMessage" style="display: none; color: green; margin-top: 10px;">
+    Thank you! Your message has been sent successfully.
+  </div>
 
   <div class="social__links">
     <a href="#" class="social__icon"><i class="fab fa-instagram"></i></a>
@@ -235,7 +240,7 @@
     </div>
 
   </div>
-  <p class="footer__copyright">&copy; 2025 YourBrand. All rights reserved.</p>
+  <p class="footer__copyright">&copy; 2025 Aseflow Wellness. All rights reserved.</p>
 </footer>
   </body>
 </html>

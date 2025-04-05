@@ -169,7 +169,7 @@ nav {
 /* ----------------------------------------------- */
 
 nav {
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
   margin: auto;
   padding: rem 1rem;
   display: flex;
